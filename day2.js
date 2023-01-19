@@ -38,11 +38,11 @@ function 함수5(x) {
     // 이외 불가능
 }
 함수5(2);
-function 함수6(x) {
-    return x * 2;
-    // =>x라는 파라미터는 옵션이고, 옵션인 파라미터는 number | undefined 이런 식으로 타입정의가 된다
-    // 그래서 아직 x라는 파라미터가 뭔지 확실하지 않기 때문에 에러를 내준다.
-}
+// function 함수6(x?: number): number {
+// return x * 2;
+// =>x라는 파라미터는 옵션이고, 옵션인 파라미터는 number | undefined 이런 식으로 타입정의가 된다
+// 그래서 아직 x라는 파라미터가 뭔지 확실하지 않기 때문에 에러를 내준다.
+// }
 function 함수7(x) {
     // if(x의 타입이 숫자면){
     //   console.log(x+3)
