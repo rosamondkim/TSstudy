@@ -12,7 +12,5 @@ var 여친 = {
 var GirlFriend = {
     name: "엠버",
 };
-// GirlFriend.name= '유라' => 에러남
-// 타스 에러는 에디터 & 터미널에서만 존재함
-// object 속성 안에도 ? 사용 가능
-// ?는 name: string | undefiend 의 약자 (옵션이라고 생각하면 편함)
+var position = { x: 10, y: 20 };
+// 같은 이름의 type 변수 재정의 불가능

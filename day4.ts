@@ -31,3 +31,16 @@ const GirlFriend: Gf = {
 // object 속성 안에도 ? 사용 가능
 // ?는 name: string | undefiend 의 약자 (옵션이라고 생각하면 편함)
 
+// type 변수도 당연히 union type으로 합치기 가능
+type Name = string;
+type Age = number;
+type Person = Name | Age;
+
+// & 연산자로 obj 타입 합치기(extend 하기)
+type PositionX = { x: number };
+type PositionY = { y: number };
+
+type NewType = PositionX & PositionY;
+let position: NewType = { x: 10, y: 20 };
+
+// 같은 이름의 type 변수 재정의 불가능
