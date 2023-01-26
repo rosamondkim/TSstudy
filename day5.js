@@ -10,4 +10,22 @@ function 함수임(a) {
     return 1; // return 값도 제한할 수 있음
 }
 함수("hello");
-return ['가위' | '바위' | '보'];
+// 만들어보자
+// 1. 가위 or 바위 or 보 중 1개 입력 가능
+// 2. 가위 or 바위 or 보 만 들어올 수 있는 arr 리턴해야함
+function 가위바위보(a) {
+    return ["가위"];
+}
+함수("가위");
+// const 변수의 한계
+var 변수 = "대머리";
+var 리터럴이짱이다;
+// literal type은 const 변수와 유사하게 사용 가능. but 여러개 지정 가능
+var 자료임 = {
+    name: "kim",
+};
+// as const 라는 것을 object 자료에 붙여서 obj 를 잠글 수 있다
+// 1. 타입을 obj의 value로 바꿔준다 (ex 타입을 kim으로 바꿔줌)
+// 2. obj 안에 있는 모든 속성을 readonly 로 바꿔준다 (변경하면 에러나게)
+function 함수입니다(a) { }
+함수입니다(자료임.name);
