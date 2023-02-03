@@ -19,6 +19,7 @@ function 가위바위보(a) {
 함수("가위");
 // const 변수의 한계
 var 변수 = "대머리";
+// Literal Type => string,number만 타입이 될 수 있는게 아니라, 일반 글자도 타입 될 수 있음.
 var 리터럴이짱이다;
 // literal type은 const 변수와 유사하게 사용 가능. but 여러개 지정 가능
 var 자료임 = {
