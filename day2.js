@@ -1,9 +1,9 @@
-function 함수(x) {
+function 함수1(x) {
     // 함수 만들었을때도 타입 지정 가능하다.
     // 아무 타입 지정 안하면 any 타입 (타입스크립트 사용 안하겠다~)
     return x * 2;
 }
-함수(2);
+함수1(2);
 //return에 타입 지정도 가능하다
 function 함수2(x) {
     return true;
